@@ -1,0 +1,122 @@
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+  }
+  
+  .favourite { 
+    display: flex;
+    flex-direction: row;
+    flex: 33%;
+    
+  }
+
+  .favourite>img{
+    padding:20px;
+    flex: 33%;
+    max-width:30%;
+  }
+
+  .container{
+    position: relative;
+    text-align:center;
+    color: white;
+    padding:20px
+  }
+
+  .top-left{
+    position: absolute;
+    top:8px;
+    left: 25px;
+  } 
+
+  .text{
+    position: absolute;
+    top:50%;
+    left:25px
+
+  }
+
+  .Green-Button{
+    position: absolute;
+    top:75%;
+    left: 25px;
+  }
+
+  .bottom-left{
+    position:absolute;
+    bottom: 15%;
+    left: 40px;
+    text-align:justify;
+  }
+
+  .popular{
+    display:flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex: 33%;
+    
+  }
+  
+  
+  
+  
+  .popular>img{
+    padding:20px;
+    flex: 33%;
+    max-width:30%;
+  }
+
+  .destination-button{
+    position:absolute;
+    bottom: 22%;
+    left: 100px;
+
+  }
+  .destination-button2{
+    position:absolute;
+    bottom: 22%;
+    left: 120px;
+
+  }
+  .destination-button3{
+    position:absolute;
+    bottom: 22%;
+    left: 150px;
+
+  }
+  .destination-button4{
+    position:absolute;
+    bottom: 22%;
+    left: 120px;
+
+  }
+  .destination-button5{
+    position:absolute;
+    bottom: 22%;
+    left: 150px;
+
+  }
+  .destination-button6{
+    position:absolute;
+    bottom: 22%;
+    left: 170px;
+
+  }
+   
+
+  .top-left2{
+    position: absolute;
+    top:22px;
+    left: 25px;
+  } 
+
+
+
+  
